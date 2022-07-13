@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #32a7bf;
+}
